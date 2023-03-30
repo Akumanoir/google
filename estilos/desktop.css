@@ -82,7 +82,9 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 90px;
+    padding-top: 200px;
+
+    transition: padding .2s;
 }
 
 div#search-container {
@@ -96,6 +98,8 @@ div#search-bar {
     border-radius: 50px;
     width: 540px;
     height: 47px;
+
+    transition: width .2s;
 }
 
 label {
