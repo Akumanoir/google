@@ -23,6 +23,11 @@ html, body {
     background-color: white;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: block;
     padding: 10px;
@@ -152,12 +157,11 @@ div#buttons {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: space-between;
     background-color: var(--cor1);
     width: 100vw;
+    margin-top: auto;
 }
 
 footer > div {
