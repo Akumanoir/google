@@ -83,16 +83,31 @@ header > div#hd-right-container > a#cadastro:hover {
 
 
 main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 200px;
+    position: relative;
+    height: calc(100% - 102px);
 
     transition: padding .2s;
 }
 
+#main_container {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 180px;
+}
+
 div#search-container {
+    display: flex;
+    justify-content: center;
     margin-top: 15px;
 }
 
@@ -161,7 +176,7 @@ footer {
     justify-content: space-between;
     background-color: var(--cor1);
     width: 100vw;
-    margin-top: auto;
+    /*margin-top: auto;*/
 }
 
 footer > div {
