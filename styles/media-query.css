@@ -7,6 +7,53 @@
         margin-bottom: 5px;
     }
 
+    div#main_container {
+        width: 100%;
+    }
+
+    div#img {
+        height: 80px;
+    }
+
+    img {
+        max-width: 40%;
+    }
+
+    div#search-container {
+        margin: auto;
+        width: 100%;
+    }
+
+    div#search-bar {
+        width: 350px;
+    }
+
+    input#search {
+        width: 245px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer > div {
+        text-align: center;
+        padding: 15px 20px;
+    }
+
+    footer > div > ul > li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-height: 430px) {
+    main {
+        height: calc(100% - 174px);
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
     div#img {
         height: 80px;
     }
