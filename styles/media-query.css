@@ -2,12 +2,17 @@
 
 @media screen and (max-width: 723px) {
     main {
-        padding-top: 50px;
-        margin-bottom: 40px;
+        height: calc(100% - 174px);
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    div#img {
+        height: 80px;
     }
 
     img {
-        width: 50px;
+        width: 200px;
     }
 
     div#search-container {
@@ -34,11 +39,5 @@
     footer > div > ul > li {
         display: inline-block;
         margin-right: 10px;
-    }
-}
-
-@media screen and (orientation: landscape) and (pointer: coarse) and (hover: none){
-    footer {
-        margin-top: 20px;
     }
 }
