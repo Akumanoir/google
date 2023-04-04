@@ -6,6 +6,10 @@
         margin-bottom: 40px;
     }
 
+    img {
+        width: 200px;
+    }
+
     div#search-container {
         margin: auto;
     }
@@ -33,6 +37,8 @@
     }
 }
 
-/*@media screen and (orientation: landscape) and (pointer: coarse){
-    
-}*/
+@media screen and (orientation: landscape) and (pointer: coarse) and (hover: none){
+    footer {
+        margin-top: 20px;
+    }
+}
